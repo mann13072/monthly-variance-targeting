@@ -7,5 +7,6 @@ authors:
     given-names: "Mann"
 repository-code: "https://github.com/mann13072/monthly-variance-targeting"
 license: MIT
+doi: 10.5281/zenodo.24461454
 date-released: "2026-11-23"
 abstract: "Paper, code, Lean proofs and results for a prespecified test of monthly variance targeting on Europe and Japan daily equity data, 1990-2026. The paper text is licensed CC BY 4.0 (see LICENSE-paper.md)."

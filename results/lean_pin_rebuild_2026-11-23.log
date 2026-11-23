@@ -1,0 +1,471 @@
+
+### elan_install
+info: downloading installer
+
+### project_new
+info: downloading https://releases.lean-lang.org/lean4/v4.37.0-rc1/lean-4.37.0-rc1-linux.tar.zst
+info: installing /root/.elan/toolchains/leanprover--lean4---v4.37.0-rc1
+info: fl: no previous manifest, creating one from scratch
+info: leanprover-community/mathlib: materializing new dependency
+info: leanprover-community/mathlib: fetching revision 'v4.37.0-rc1' from https://github.com/leanprover-community/mathlib4
+info: leanprover-community/mathlib: checking out revision '31ce06eaadf4a200c0e1407c5f10953cf606b8f8'
+info: plausible: materializing new dependency
+info: plausible: fetching revision '0d8633efc105d6b15b59a8103614ae0291ee8827' from https://github.com/leanprover-community/plausible
+info: plausible: checking out revision '0d8633efc105d6b15b59a8103614ae0291ee8827'
+info: LeanSearchClient: materializing new dependency
+info: LeanSearchClient: fetching revision '146200e1ecbf7397e361475b5c0905adc5fe0670' from https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision '146200e1ecbf7397e361475b5c0905adc5fe0670'
+info: importGraph: materializing new dependency
+info: importGraph: fetching revision 'cf947504529b8e2ee114e852133d13e4ac923e9b' from https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision 'cf947504529b8e2ee114e852133d13e4ac923e9b'
+info: proofwidgets: materializing new dependency
+info: proofwidgets: fetching revision '197b8bdfd8bbfea6dff6ac04170a710b231c3aaa' from https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '197b8bdfd8bbfea6dff6ac04170a710b231c3aaa'
+info: aesop: materializing new dependency
+info: aesop: fetching revision '637fdbb8689a3387a82568b07355231f892144d7' from https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '637fdbb8689a3387a82568b07355231f892144d7'
+info: Qq: materializing new dependency
+info: Qq: fetching revision 'ad0c9f87cfe7b41b93446472004724a1646a22f4' from https://github.com/leanprover-community/quote4
+info: Qq: checking out revision 'ad0c9f87cfe7b41b93446472004724a1646a22f4'
+info: batteries: materializing new dependency
+info: batteries: fetching revision '87486d547af639cb39c01f0d2f8025aa47d7dde1' from https://github.com/leanprover-community/batteries
+info: batteries: checking out revision '87486d547af639cb39c01f0d2f8025aa47d7dde1'
+info: Cli: materializing new dependency
+info: Cli: fetching revision 'c830de39b67d5d447d854a4e390fff9bb0a9c897' from https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision 'c830de39b67d5d447d854a4e390fff9bb0a9c897'
+info: mathlib: running post-update hooks
+✔ [4/11] Built Cache.Cli (623ms)
+✔ [6/11] Built Cache.Lean (1.5s)
+✔ [13/25] Built Cache.Env (418ms)
+✔ [15/25] Built Cache.Infra (588ms)
+✔ [18/65] Built Cache.Location (696ms)
+✔ [20/65] Built Cache.Cli:c.o (348ms)
+✔ [21/65] Built Cache.Lean:c.o (462ms)
+✔ [22/65] Built Cache.IO (2.7s)
+✔ [23/65] Built Cache.Env:c.o (346ms)
+✔ [24/65] Built Cache.Infra:c.o (362ms)
+✔ [26/65] Built Cache.Location:c.o (531ms)
+✔ [27/65] Built Batteries.Tactic.OpenPrivate:c.o (2.6s)
+✔ [28/65] Built Cache.Hashing (1.2s)
+✔ [30/65] Built Cache.Hashing:c.o (2.1s)
+✔ [31/65] Built Cache.IO:c.o (5.1s)
+✔ [32/65] Built Cache.Requests (3.4s)
+✔ [34/65] Built Cache.Marker (485ms)
+✔ [36/65] Built Cache.Marker:c.o (297ms)
+✔ [37/65] Built Cache.Upload.Curl (551ms)
+✔ [38/65] Built Cache.Upload.Rclone (671ms)
+✔ [41/65] Built Cache.Query (720ms)
+✔ [43/65] Built Cache.Upload.Curl:c.o (476ms)
+✔ [44/65] Built Cache.Upload.Rclone:c.o (517ms)
+✔ [45/65] Built Cache.Query:c.o (603ms)
+✔ [46/65] Built Cache.Upload.Azure (477ms)
+✔ [47/65] Built Cache.Upload.S3 (758ms)
+✔ [50/65] Built Cache.Warning (814ms)
+✔ [52/65] Built Cache.Upload.Azure:c.o (243ms)
+✔ [53/65] Built Cache.Requests:c.o (6.0s)
+✔ [54/65] Built Cache.Upload.S3:c.o (675ms)
+✔ [55/65] Built Cache.Warning:c.o (675ms)
+✔ [56/65] Built Cache.Upload.Defs (477ms)
+✔ [58/65] Built Cache.Upload (377ms)
+✔ [60/65] Built Cache.Upload.Defs:c.o (311ms)
+✔ [61/65] Built Cache.Upload:c.o (257ms)
+✔ [62/65] Built Cache.Main (1.7s)
+✔ [64/65] Built Cache.Main:c.o (2.1s)
+✔ [65/65] Built cache:exe (1.5s)
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+Attempting to download 9133 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master
+Downloaded: 2 file(s) [attempted 2/9133 = 0%, 574 KB/s][KDownloaded: 111 file(s) [attempted 111/9133 = 1%, 1954 KB/s][KDownloaded: 214 file(s) [attempted 214/9133 = 2%, 1784 KB/s][KDownloaded: 321 file(s) [attempted 321/9133 = 3%, 10813 KB/s][KDownloaded: 405 file(s) [attempted 405/9133 = 4%, 373 KB/s][KDownloaded: 478 file(s) [attempted 478/9133 = 5%, 6399 KB/s][KDownloaded: 587 file(s) [attempted 587/9133 = 6%, 2243 KB/s][KDownloaded: 689 file(s) [attempted 689/9133 = 7%, 2397 KB/s][KDownloaded: 799 file(s) [attempted 799/9133 = 8%, 2557 KB/s][KDownloaded: 849 file(s) [attempted 849/9133 = 9%, 653 KB/s][KDownloaded: 906 file(s) [attempted 906/9133 = 9%, 3783 KB/s][KDownloaded: 983 file(s) [attempted 983/9133 = 10%, 900 KB/s][KDownloaded: 1107 file(s) [attempted 1107/9133 = 12%, 87 KB/s][KDownloaded: 1203 file(s) [attempted 1203/9133 = 13%, 2170 KB/s][KDownloaded: 1286 file(s) [attempted 1286/9133 = 14%, 630 KB/s][KDownloaded: 1366 file(s) [attempted 1366/9133 = 14%, 434 KB/s][KDownloaded: 1477 file(s) [attempted 1477/9133 = 16%, 1673 KB/s][KDownloaded: 1572 file(s) [attempted 1572/9133 = 17%, 1600 KB/s][KDownloaded: 1641 file(s) [attempted 1641/9133 = 17%, 739 KB/s][KDownloaded: 1729 file(s) [attempted 1729/9133 = 18%, 1039 KB/s][KDownloaded: 1846 file(s) [attempted 1846/9133 = 20%, 1068 KB/s][KDownloaded: 1930 file(s) [attempted 1930/9133 = 21%, 1874 KB/s][KDownloaded: 1985 file(s) [attempted 1985/9133 = 21%, 214 KB/s][KDownloaded: 2086 file(s) [attempted 2086/9133 = 22%, 1376 KB/s][KDownloaded: 2136 file(s) [attempted 2136/9133 = 23%, 876 KB/s][KDownloaded: 2191 file(s) [attempted 2191/9133 = 23%, 5275 KB/s][KDownloaded: 2278 file(s) [attempted 2278/9133 = 24%, 4025 KB/s][KDownloaded: 2379 file(s) [attempted 2379/9133 = 26%, 2070 KB/s][KDownloaded: 2513 file(s) [attempted 2513/9133 = 27%, 4401 KB/s][KDownloaded: 2611 file(s) [attempted 2611/9133 = 28%, 397 KB/s][KDownloaded: 2714 file(s) [attempted 2714/9133 = 29%, 3157 KB/s][KDownloaded: 2794 file(s) [attempted 2794/9133 = 30%, 1213 KB/s][KDownloaded: 2888 file(s) [attempted 2888/9133 = 31%, 1199 KB/s][KDownloaded: 2974 file(s) [attempted 2974/9133 = 32%, 2912 KB/s][KDownloaded: 3077 file(s) [attempted 3077/9133 = 33%, 2047 KB/s][KDownloaded: 3187 file(s) [attempted 3187/9133 = 34%, 2767 KB/s][KDownloaded: 3247 file(s) [attempted 3247/9133 = 35%, 1137 KB/s][KDownloaded: 3317 file(s) [attempted 3317/9133 = 36%, 136 KB/s][KDownloaded: 3379 file(s) [attempted 3379/9133 = 36%, 150 KB/s][KDownloaded: 3405 file(s) [attempted 3405/9133 = 37%, 708 KB/s][KDownloaded: 3425 file(s) [attempted 3425/9133 = 37%, 28 KB/s][KDownloaded: 3460 file(s) [attempted 3460/9133 = 37%, 552 KB/s][KDownloaded: 3521 file(s) [attempted 3521/9133 = 38%, 956 KB/s][KDownloaded: 3552 file(s) [attempted 3552/9133 = 38%, 603 KB/s][KDownloaded: 3606 file(s) [attempted 3606/9133 = 39%, 498 KB/s][KDownloaded: 3670 file(s) [attempted 3670/9133 = 40%, 174 KB/s][KDownloaded: 3738 file(s) [attempted 3738/9133 = 40%, 267 KB/s][KDownloaded: 3809 file(s) [attempted 3809/9133 = 41%, 509 KB/s][KDownloaded: 3853 file(s) [attempted 3853/9133 = 42%, 1413 KB/s][KDownloaded: 3915 file(s) [attempted 3915/9133 = 42%, 260 KB/s][KDownloaded: 3960 file(s) [attempted 3960/9133 = 43%, 571 KB/s][KDownloaded: 4017 file(s) [attempted 4017/9133 = 43%, 395 KB/s][KDownloaded: 4080 file(s) [attempted 4080/9133 = 44%, 380 KB/s][KDownloaded: 4142 file(s) [attempted 4142/9133 = 45%, 1993 KB/s][KDownloaded: 4175 file(s) [attempted 4175/9133 = 45%, 360 KB/s][KDownloaded: 4201 file(s) [attempted 4201/9133 = 45%, 50 KB/s][KDownloaded: 4235 file(s) [attempted 4235/9133 = 46%, 389 KB/s][KDownloaded: 4302 file(s) [attempted 4302/9133 = 47%, 610 KB/s][KDownloaded: 4366 file(s) [attempted 4366/9133 = 47%, 3146 KB/s][KDownloaded: 4398 file(s) [attempted 4398/9133 = 48%, 256 KB/s][KDownloaded: 4425 file(s) [attempted 4425/9133 = 48%, 113 KB/s][KDownloaded: 4475 file(s) [attempted 4475/9133 = 48%, 144 KB/s][KDownloaded: 4547 file(s) [attempted 4547/9133 = 49%, 1877 KB/s][KDownloaded: 4621 file(s) [attempted 4621/9133 = 50%, 1492 KB/s][KDownloaded: 4684 file(s) [attempted 4684/9133 = 51%, 228 KB/s][KDownloaded: 4743 file(s) [attempted 4743/9133 = 51%, 661 KB/s][KDownloaded: 4796 file(s) [attempted 4796/9133 = 52%, 1437 KB/s][KDownloaded: 4861 file(s) [attempted 4861/9133 = 53%, 607 KB/s][KDownloaded: 4921 file(s) [attempted 4921/9133 = 53%, 1035 KB/s][KDownloaded: 4977 file(s) [attempted 4977/9133 = 54%, 1622 KB/s][KDownloaded: 5046 file(s) [attempted 5046/9133 = 55%, 878 KB/s][KDownloaded: 5112 file(s) [attempted 5112/9133 = 55%, 2704 KB/s][KDownloaded: 5171 file(s) [attempted 5171/9133 = 56%, 334 KB/s][KDownloaded: 5228 file(s) [attempted 5228/9133 = 57%, 7315 KB/s][KDownloaded: 5289 file(s) [attempted 5289/9133 = 57%, 69 KB/s][KDownloaded: 5346 file(s) [attempted 5346/9133 = 58%, 1160 KB/s][KDownloaded: 5414 file(s) [attempted 5414/9133 = 59%, 2410 KB/s][KDownloaded: 5530 file(s) [attempted 5530/9133 = 60%, 3295 KB/s][KDownloaded: 5634 file(s) [attempted 5634/9133 = 61%, 690 KB/s][KDownloaded: 5727 file(s) [attempted 5727/9133 = 62%, 3093 KB/s][KDownloaded: 5827 file(s) [attempted 5827/9133 = 63%, 1474 KB/s][KDownloaded: 5883 file(s) [attempted 5883/9133 = 64%, 1715 KB/s][KDownloaded: 5965 file(s) [attempted 5965/9133 = 65%, 1678 KB/s][KDownloaded: 6032 file(s) [attempted 6032/9133 = 66%, 6738 KB/s][KDownloaded: 6072 file(s) [attempted 6072/9133 = 66%, 2302 KB/s][KDownloaded: 6099 file(s) [attempted 6099/9133 = 66%, 478 KB/s][KDownloaded: 6181 file(s) [attempted 6181/9133 = 67%, 185 KB/s][KDownloaded: 6238 file(s) [attempted 6238/9133 = 68%, 2245 KB/s][KDownloaded: 6289 file(s) [attempted 6289/9133 = 68%, 722 KB/s][KDownloaded: 6379 file(s) [attempted 6379/9133 = 69%, 500 KB/s][KDownloaded: 6425 file(s) [attempted 6425/9133 = 70%, 161 KB/s][KDownloaded: 6461 file(s) [attempted 6461/9133 = 70%, 2884 KB/s][KDownloaded: 6506 file(s) [attempted 6506/9133 = 71%, 165 KB/s][KDownloaded: 6571 file(s) [attempted 6571/9133 = 71%, 322 KB/s][KDownloaded: 6620 file(s) [attempted 6620/9133 = 72%, 4637 KB/s][KDownloaded: 6689 file(s) [attempted 6689/9133 = 73%, 1436 KB/s][KDownloaded: 6772 file(s) [attempted 6772/9133 = 74%, 251 KB/s][KDownloaded: 6822 file(s) [attempted 6822/9133 = 74%, 1544 KB/s][KDownloaded: 6891 file(s) [attempted 6891/9133 = 75%, 4787 KB/s][KDownloaded: 6958 file(s) [attempted 6958/9133 = 76%, 2336 KB/s][KDownloaded: 7025 file(s) [attempted 7025/9133 = 76%, 1491 KB/s][KDownloaded: 7090 file(s) [attempted 7090/9133 = 77%, 480 KB/s][KDownloaded: 7153 file(s) [attempted 7153/9133 = 78%, 137 KB/s][KDownloaded: 7232 file(s) [attempted 7232/9133 = 79%, 837 KB/s][KDownloaded: 7301 file(s) [attempted 7301/9133 = 79%, 175 KB/s][KDownloaded: 7339 file(s) [attempted 7339/9133 = 80%, 166 KB/s][KDownloaded: 7372 file(s) [attempted 7372/9133 = 80%, 477 KB/s][KDownloaded: 7423 file(s) [attempted 7423/9133 = 81%, 1833 KB/s][KDownloaded: 7522 file(s) [attempted 7522/9133 = 82%, 7728 KB/s][KDownloaded: 7586 file(s) [attempted 7586/9133 = 83%, 1085 KB/s][KDownloaded: 7682 file(s) [attempted 7682/9133 = 84%, 2420 KB/s][KDownloaded: 7783 file(s) [attempted 7783/9133 = 85%, 201 KB/s][KDownloaded: 7880 file(s) [attempted 7880/9133 = 86%, 3232 KB/s][KDownloaded: 7994 file(s) [attempted 7994/9133 = 87%, 2066 KB/s][KDownloaded: 8097 file(s) [attempted 8097/9133 = 88%, 249 KB/s][KDownloaded: 8200 file(s) [attempted 8200/9133 = 89%, 471 KB/s][KDownloaded: 8289 file(s) [attempted 8289/9133 = 90%, 230 KB/s][KDownloaded: 8359 file(s) [attempted 8359/9133 = 91%, 962 KB/s][KDownloaded: 8460 file(s) [attempted 8460/9133 = 92%, 5101 KB/s][KDownloaded: 8560 file(s) [attempted 8560/9133 = 93%, 343 KB/s][KDownloaded: 8659 file(s) [attempted 8659/9133 = 94%, 1125 KB/s][KDownloaded: 8716 file(s) [attempted 8716/9133 = 95%, 11953 KB/s][KDownloaded: 8767 file(s) [attempted 8767/9133 = 95%, 490 KB/s][KDownloaded: 8867 file(s) [attempted 8867/9133 = 97%, 3483 KB/s][KDownloaded: 8968 file(s) [attempted 8968/9133 = 98%, 802 KB/s][KDownloaded: 9054 file(s) [attempted 9054/9133 = 99%, 321 KB/s][KDownloaded: 9133 file(s) [attempted 9133/9133 = 100%, 321 KB/s][K
+Still decompressing downloaded files...
+Decompressed 9133 file(s)
+Already decompressed 9133 file(s)
+
+### copy_source
+
+### cache_get
+Current branch: HEAD
+Using cache from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 9133 file(s)
+
+### build
+⚠ [18291/18302] Built Fl.H1 (76s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean:37:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+info: Fl/H1.lean:48:0: 'FL.h1' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18292/18302] Ran Fl.H1:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18302] Built Fl.H2 (12s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H2.lean:27:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/H2.lean:151:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Fl/H2.lean:157:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Fl/H2.lean:158:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: Fl/H2.lean:171:0: 'FL.h2' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18294/18302] Ran Fl.H2:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18295/18302] Built Fl.H3 (7.1s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H3.lean:67:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Fl/H3.lean:68:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Fl/H3.lean:67:14: Unused tactic linter: `exact Finset.prod_le_prod h0 hle` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/H3.lean:68:14: Unused tactic linter: `exact Finset.prod_le_prod' hle` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+info: Fl/H3.lean:114:0: 'FL.h3a' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:115:0: 'FL.h3b' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:116:0: 'FL.h3c' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18296/18302] Ran Fl.H3:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18302] Built Fl.AL (14s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/AL.lean:4:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL.lean:213:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: Fl/AL.lean:216:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: Fl/AL.lean:297:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Fl/AL.lean:297:14: Unused tactic linter: `exact (div_le_div_iff_of_pos_right hDn).2 hN` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/AL.lean:312:47: This simp argument is unused:
+  abs_of_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [abs_of_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Fl/AL.lean:324:47: This simp argument is unused:
+  abs_of_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [abs_of_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Fl/AL.lean:316:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+info: Fl/AL.lean:326:0: 'FL.day_up' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:327:0: 'FL.day_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:328:0: 'FL.al002_tight' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:329:0: 'FL.al002_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:330:0: 'FL.al004' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18298/18302] Ran Fl.AL:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18302] Built Fl.AL001 (14s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/AL001.lean:4:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:142:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Fl/AL001.lean:149:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Fl/AL001.lean:156:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Fl/AL001.lean:162:42: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Fl/AL001.lean:143:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:163:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:142:42: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/AL001.lean:149:42: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/AL001.lean:156:42: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/AL001.lean:162:42: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: Fl/AL001.lean:191:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:193:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:197:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: Fl/AL001.lean:218:47: This simp argument is unused:
+  abs_of_neg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [abs_of_pos]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: Fl/AL001.lean:222:0: 'FL.day_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL001.lean:223:0: 'FL.al001' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18300/18302] Ran Fl.AL001:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18302] Built Fl.AL005 (16s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/AL005.lean:47:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Fl/AL005.lean:121:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Fl/AL005.lean:232:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+info: Fl/AL005.lean:269:0: 'FL.cubic_lb' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:270:0: 'FL.al005' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:271:0: 'FL.sharp_day' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:272:0: 'FL.sharp_drag' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18302/18302] Ran Fl.AL005:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18302 jobs).
+
+### versions
+Lean (version 4.37.0-rc1, x86_64-unknown-linux-gnu, commit 0b77e12952ad39077d80d8bd6b66d601f225c321, Release)
+leanprover/lean4:v4.37.0-rc1
+
+name = "fl"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Fl"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.37.0-rc1"
+
+[[lean_lib]]
+name = "Fl"
+
+ [{"url": "https://github.com/leanprover-community/mathlib4",
+   "type": "git",
+   "subDir": null,
+   "scope": "leanprover-community",
+--
+   "name": "mathlib",
+   "manifestFile": "lake-manifest.json",
+   "inputRev": "v4.37.0-rc1",
+   "inherited": false,
+
+### sorry_scan
+SORRY_SCAN_DONE

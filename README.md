@@ -79,7 +79,7 @@ Checked from a clean copy: the paper rebuilds, the post hoc results file reprodu
 | `code/` | `practical_vt.py` is the frozen test. The rest produce the post hoc, cost, fund and account results. |
 | `results/` | Every result file cited in the paper, the freeze records and the Lean build logs. |
 | `prereg/` | The prespecification text. |
-| `lean/` | The proofs, with build instructions. |
+| `lean/` | The proofs, pinned to Lean 4.37.0-rc1 and Mathlib v4.37.0-rc1 (commit 31ce06ea), with build instructions. |
 | `data/` | Where to get the raw data, and the hashes of the files used. Raw data are not redistributed. |
 
 ## How much to trust the "prespecified" label
@@ -91,7 +91,6 @@ The test was frozen on 2026-11-22 at 16:22:24 UTC. The frozen script's SHA-256 i
 
 ## Known gaps
 
-- The Lean project's Mathlib commit was not recorded; a rebuild is needed to pin it (see `lean/README.md`).
 - The fund-shortfall and USD 100,000 account results use unofficial price series that can't be redistributed, so outsiders can inspect those results but not rerun them. The paper marks them as development evidence.
 - Brown, Avellaneda–Zhang and Bongaerts et al. were read (preprint, working-paper and repository versions). Moreira–Muir, Harvey et al. and Cederburg et al. are cited from the reference list of Bongaerts et al. and bibliographic records, not read.
 
@@ -103,4 +102,4 @@ Independent research by Mann Shah. The paper was written with substantial help f
 
 - **Code and everything except the paper:** MIT, see [LICENSE](LICENSE).
 - **The paper (PDF and figures):** CC BY 4.0, see [LICENSE-paper.md](LICENSE-paper.md).
-- **Citing:** see [CITATION.cff](CITATION.cff). A DOI will be added after the Zenodo release.
+- **Citing:** see [CITATION.cff](CITATION.cff). Archived on Zenodo: [10.5281/zenodo.24461454](https://doi.org/10.5281/zenodo.24461454) (concept DOI, always the latest version). Release v1.0.0 has its own version DOI, 10.5281/zenodo.24461455.
