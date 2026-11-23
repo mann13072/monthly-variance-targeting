@@ -96,7 +96,7 @@ The test was frozen on 2026-11-22 at 16:22:24 UTC. The frozen script's SHA-256 i
 
 ## About
 
-Independent research by Mann Shah. The author developed the hypothesis in discussion with a second AI agent, directed the project, answered Claude's design questions and steered the experiments from the results. Claude (Anthropic) built the wiki, wrote the code, Lean proofs, analysis and draft text. The paper's AI-assistance paragraph describes the split. Research, not investment advice.
+Independent research by Mann Shah. The author directed the work and is responsible for its content. AI assistants (Claude from Anthropic, and a second agent) were used for coding, Lean proofs, analysis and drafting; see the note in the paper. Research, not investment advice.
 
 ## Licence and citation
 
