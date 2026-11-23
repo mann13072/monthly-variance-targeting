@@ -96,7 +96,7 @@ The test was frozen on 2026-11-22 at 16:22:24 UTC. The frozen script's SHA-256 i
 
 ## About
 
-Independent research by Mann Shah. The paper was written with substantial help from Claude (Anthropic) for the hypothesis design, code, Lean proofs, analysis and drafting, and the paper says so. Research, not investment advice.
+Independent research by Mann Shah. The author set the research goal, the practical question and the test constraints. Claude (Anthropic) proposed the hypotheses and wrote the code, Lean proofs, analysis and draft text. The paper's AI-assistance paragraph describes the split. Research, not investment advice.
 
 ## Licence and citation
 
