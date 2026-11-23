@@ -1,0 +1,5 @@
+# Keep Unix line endings so the Lean toolchain files and proofs build on Windows checkouts too.
+lean/lean-toolchain text eol=lf
+lean/lakefile.toml text eol=lf
+lean/lake-manifest.json text eol=lf
+*.lean text eol=lf
