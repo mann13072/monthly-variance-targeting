@@ -1,0 +1,10 @@
+
+info: Fl/H1.lean:48:0: 'FL.h1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H2.lean:171:0: 'FL.h2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:114:0: 'FL.h3a' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:115:0: 'FL.h3b' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:116:0: 'FL.h3c' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18296 jobs).
+Lake version 5.0.0-src+0b77e12 (Lean version 4.37.0-rc1)
+Lean (version 4.37.0-rc1, x86_64-unknown-linux-gnu, commit 0b77e12952ad39077d80d8bd6b66d601f225c321, Release)
+ 13

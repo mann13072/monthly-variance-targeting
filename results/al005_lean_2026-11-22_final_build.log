@@ -1,0 +1,21 @@
+
+info: Fl/H1.lean:48:0: 'FL.h1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H2.lean:171:0: 'FL.h2' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:114:0: 'FL.h3a' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:115:0: 'FL.h3b' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/H3.lean:116:0: 'FL.h3c' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:326:0: 'FL.day_up' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:327:0: 'FL.day_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:328:0: 'FL.al002_tight' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:329:0: 'FL.al002_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL.lean:330:0: 'FL.al004' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL001.lean:222:0: 'FL.day_cubic' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL001.lean:223:0: 'FL.al001' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:269:0: 'FL.cubic_lb' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:270:0: 'FL.al005' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:271:0: 'FL.sharp_day' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Fl/AL005.lean:272:0: 'FL.sharp_drag' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (18302 jobs).
+Lean (version 4.37.0-rc1, x86_64-unknown-linux-gnu, commit 0b77e12952ad39077d80d8bd6b66d601f225c321, Release)
+0
+ 14

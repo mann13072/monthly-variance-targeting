@@ -1,0 +1,4 @@
+FREEZE of the paper-trade protocol and harness (before the first real signal)
+2026-11-22T16:56:58Z
+ef3c8ef7910edaa2a5839be76796edff0634896547fe7ee7fac49dc7ed7fe08d *formal/py/paper_trade.py
+bad561d40119784b16edf8174af1f58be7541ca1291df0c04f4566be369f6fa8 *wiki/workbench/formal-lane/practical-track-papertrade-protocol.md

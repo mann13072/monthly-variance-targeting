@@ -1,0 +1,137 @@
+{
+ "xetra_eur_line_diagnostic": {
+  "days": 3718,
+  "days_disagree_over_5pct": 4,
+  "days_disagree_over_10pct": 4,
+  "corr": 0.9295953333400409,
+  "cumulative_ratio": 1.0131114559505212
+ },
+ "USD line, 5 bp": {
+  "route": "USD",
+  "exec_bp": 5,
+  "fx_bp": 0,
+  "start": "20100504",
+  "end": "20260930",
+  "years": 16.4,
+  "final_value": 765386.6281724446,
+  "cagr": 0.13207729320450268,
+  "max_dd": 0.2779489222688222,
+  "worst_day": -0.06602492635842883,
+  "longest_uw_months": 18.38095238095238,
+  "vol": 0.15969082195264872,
+  "total_costs_usd": 3676.150636518956,
+  "trades": 197,
+  "traded_usd": 7352301.27303791,
+  "turnover_per_year": 1.449537380772434,
+  "avg_fund_weight": 0.5856235729498538,
+  "portfolio_fee_bp": 35.13741437699123,
+  "primary_delta": -0.32783763122541465,
+  "primary_ci": [
+   -0.7469795855031003,
+   -0.03689432845712453
+  ],
+  "S_max": 1.2678743078680792,
+  "S_windows": 16,
+  "min_value": 89426.0913466611
+ },
+ "USD line, 15 bp": {
+  "route": "USD",
+  "exec_bp": 15,
+  "fx_bp": 0,
+  "start": "20100504",
+  "end": "20260930",
+  "years": 16.4,
+  "final_value": 747211.3216171496,
+  "cagr": 0.1304567025876162,
+  "max_dd": 0.2781704792464921,
+  "worst_day": -0.0660194828864622,
+  "longest_uw_months": 18.38095238095238,
+  "vol": 0.15971180385268055,
+  "total_costs_usd": 10854.259136931896,
+  "trades": 197,
+  "traded_usd": 7236172.7579545975,
+  "turnover_per_year": 1.449586217133896,
+  "avg_fund_weight": 0.5856896919741854,
+  "portfolio_fee_bp": 35.14138151845113,
+  "primary_delta": -0.32763577595662763,
+  "primary_ci": [
+   -0.7471430246701873,
+   -0.03643738722950737
+  ],
+  "S_max": 1.266352386270799,
+  "S_windows": 16,
+  "min_value": 89373.32407164526
+ },
+ "EUR route modelled from USD line + FX, 5 bp + 10 bp": {
+  "route": "EUR",
+  "exec_bp": 5,
+  "fx_bp": 10,
+  "start": "20100504",
+  "end": "20260930",
+  "years": 16.4,
+  "final_value": 747211.3216171496,
+  "cagr": 0.1304567025876162,
+  "max_dd": 0.2781704792464921,
+  "worst_day": -0.0660194828864622,
+  "longest_uw_months": 18.38095238095238,
+  "vol": 0.15971180385268055,
+  "total_costs_usd": 10854.259136931896,
+  "trades": 197,
+  "traded_usd": 7236172.7579545975,
+  "turnover_per_year": 1.449586217133896,
+  "avg_fund_weight": 0.5856896919741854,
+  "portfolio_fee_bp": 35.14138151845113,
+  "primary_delta": -0.32763577595662763,
+  "primary_ci": [
+   -0.7471430246701873,
+   -0.03643738722950737
+  ],
+  "S_max": 1.266352386270799,
+  "S_windows": 16,
+  "min_value": 89373.32407164526
+ },
+ "EUR route modelled + FX, 15 bp + 30 bp": {
+  "route": "EUR",
+  "exec_bp": 15,
+  "fx_bp": 30,
+  "start": "20100504",
+  "end": "20260930",
+  "years": 16.4,
+  "final_value": 694902.7025500765,
+  "cagr": 0.1255762287484805,
+  "max_dd": 0.27897690405056275,
+  "worst_day": -0.06602944274517875,
+  "longest_uw_months": 18.428571428571427,
+  "vol": 0.15978626934969417,
+  "total_costs_usd": 31066.95918532276,
+  "trades": 197,
+  "traded_usd": 6903768.707849503,
+  "turnover_per_year": 1.4506747079833664,
+  "avg_fund_weight": 0.5858925206685373,
+  "portfolio_fee_bp": 35.153551240112236,
+  "primary_delta": -0.3270349102049593,
+  "primary_ci": [
+   -0.747592231216393,
+   -0.03562737106791219
+  ],
+  "S_max": 1.2621628088278667,
+  "S_windows": 16,
+  "min_value": 89151.35217936753
+ },
+ "comparators": {
+  "index_total_return": {
+   "final_value": 882115.4947039403,
+   "cagr": 0.14189479210500577,
+   "max_dd": 0.33790463651871727
+  },
+  "spy_adj_close": {
+   "final_value": 868119.4461234896,
+   "cagr": 0.1407822697758696
+  },
+  "xs2d_alone": {
+   "final_value": 2843326.1894798875,
+   "cagr": 0.2263235602476652,
+   "max_dd": 0.5931336132989135
+  }
+ }
+}

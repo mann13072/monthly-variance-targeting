@@ -1,0 +1,13 @@
+FREEZE of the practical-track pre-registration (before opening Europe and Japan for this purpose)
+2026-11-22T16:22:24Z
+dd67fd2e75c3914eb6682b7cf6cabc63e46346e25fabea5009f282aa5c5eeccd *formal/py/practical_vt.py
+42165ff0da0294992746af56c0953f1d6924c9b3965a434292e0b01ee7375330 *formal/lean/H1/H1.lean
+dca8275132135b13e90f9f974229734cd5051a5f1514b08f248932fb2157554b *formal/lean/H2/H2.lean
+6b94f8de28aa177595b95afe8f2ccad4af362fb1e07363521475492cefacdd13 *formal/lean/H3/H3.lean
+d731a93cd63d392a237e309a51bfade487f5f821e538822be32089d53157c3b7 *formal/lean/AL/AL.lean
+57c6760e5018c0cafd788d2bcf676136d84575788dabbcc4f5e17748c0d2d380 *formal/lean/AL001/AL001.lean
+cf8e2c5754df7173046bc70e99272a947a6220da6767e5bf4eacb219e6f03d92 *formal/lean/AL005/AL005.lean
+676ee670e846cddd53c4111f85096b648ffea59f765050f480d9a3172024dd42 *wiki/workbench/formal-lane/practical-track-prereg.md
+9d76d27f486206667a6bcdf18dde487b11505ba637e8159f23810ecdf3e265b7 *raw/data/french/regions/Europe_3_Factors_Daily.csv
+76af572edb587bb42f4fa43f276c499510a23e26895042cd366508e264ad81ab *raw/data/french/regions/Japan_3_Factors_Daily.csv
+ad87e5517e05cfea36e0ef95631ba74e2b82ce4dcfbdc88ca811533228f3b680 *raw/data/french/regions/Asia_Pacific_ex_Japan_3_Factors_Daily.csv

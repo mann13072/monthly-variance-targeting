@@ -1,0 +1,10 @@
+⚠ [18291/18292] Built Fl.H1 (5.5s)
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: Fl/H1.lean:37:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+info: Fl/H1.lean:48:0: 'FL.h1' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [18292/18292] Ran Fl.H1:irArts
+warning: Fl/H1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18292 jobs).
+'FL.h1' depends on axioms: [propext, Classical.choice, Quot.sound]

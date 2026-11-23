@@ -1,0 +1,113 @@
+{
+ "label": "Japan",
+ "file": "raw/data/french/regions/Japan_3_Factors_Daily.csv",
+ "days": 9458,
+ "months": 434,
+ "first": 19900702,
+ "last": 20260930,
+ "params": {
+  "V_TAR": 0.002,
+  "L_MAX": 1.5,
+  "M_CAP": 0.2,
+  "GAMMA": 4.0,
+  "SPREAD": 0.0005,
+  "BORROW_YR": 0.005,
+  "FEE_YR": 0.005,
+  "BLOCK_MONTHS": 3,
+  "B_RESAMPLES": 2000,
+  "DD_LIMIT": 0.4,
+  "DAY_LIMIT": 0.1,
+  "UW_MONTHS_LIMIT": 36,
+  "TURNOVER_LIMIT": 12.0,
+  "DAYS_YR": 252
+ },
+ "primary_A_daily_maintained": {
+  "mean_dev_strategy": 0.7365689412811244,
+  "mean_dev_index": 1.1912663611774013,
+  "delta": -0.45469741989627677,
+  "ci95": [
+   -0.7081422215526048,
+   -0.2554472049176034
+  ],
+  "passes": true
+ },
+ "primary_B_monthly_drift": {
+  "mean_dev_strategy": 0.7373732389078457,
+  "mean_dev_index": 1.1912663611774013,
+  "delta": -0.4538931222695554,
+  "ci95": [
+   -0.7100676101429728,
+   -0.249291374703566
+  ],
+  "passes": true
+ },
+ "secondary_logdev_A": {
+  "strategy": 0.5677870708643868,
+  "index": 0.6486851843444371
+ },
+ "secondary_logdev_B": {
+  "strategy": 0.5674952608272479,
+  "index": 0.6486851843444371
+ },
+ "premise": {
+  "Q_gt_gamma": 19,
+  "pairs": 434,
+  "freq": 0.04377880184331797
+ },
+ "post_jump": {
+  "events": 19,
+  "next_month_Q_mean": 0.4269234566240144,
+  "next_month_Q_median": 0.420885941160364,
+  "next_month_Q_gt_1": 0,
+  "next_month_Q_gt_gamma": 0
+ },
+ "metrics_A_daily_maintained": {
+  "cagr": 0.017908030221825078,
+  "vol": 0.17609127897318133,
+  "sharpe": 0.04616437141452814,
+  "max_dd": 0.6099028103876394,
+  "worst_day": -0.10882649850413366,
+  "longest_underwater_months": 299.95238095238096
+ },
+ "metrics_B_monthly_drift": {
+  "cagr": 0.01723222682566683,
+  "vol": 0.176073628564754,
+  "sharpe": 0.04238295883500036,
+  "max_dd": 0.6160582623196128,
+  "worst_day": -0.1124073667852784,
+  "longest_underwater_months": 300.14285714285717
+ },
+ "metrics_index": {
+  "cagr": 0.031540618772797124,
+  "vol": 0.21353839775649938,
+  "sharpe": 0.13439066106062555,
+  "max_dd": 0.5982386951167686,
+  "worst_day": -0.1085,
+  "longest_underwater_months": 109.33333333333333
+ },
+ "turnover_per_year": {
+  "A": 2.610605612553727,
+  "B": 2.6201596274294023
+ },
+ "practical_gates": {
+  "A_daily_maintained": {
+   "drawdown_ok": false,
+   "day_ok": false,
+   "underwater_ok": false,
+   "turnover_ok": true
+  },
+  "B_monthly_drift": {
+   "drawdown_ok": false,
+   "day_ok": false,
+   "underwater_ok": false,
+   "turnover_ok": true
+  }
+ },
+ "theorem_integrity": {
+  "months_checked": 434,
+  "months_cap_exceeded": 0,
+  "sharp_violations": 0,
+  "const_violations_when_premise_holds": 0,
+  "C_const": 0.002380952380952381
+ }
+}
