@@ -93,7 +93,7 @@ The test was frozen on 2026-11-22 at 16:22:24 UTC. The frozen script's SHA-256 i
 
 - The Lean project's Mathlib commit was not recorded; a rebuild is needed to pin it (see `lean/README.md`).
 - The fund-shortfall and USD 100,000 account results use unofficial price series that can't be redistributed, so outsiders can inspect those results but not rerun them. The paper marks them as development evidence.
-- Two of the four references were known from abstracts only, not read in full.
+- Brown, Avellaneda–Zhang and Bongaerts et al. were read (preprint, working-paper and repository versions). Moreira–Muir, Harvey et al. and Cederburg et al. are cited from the reference list of Bongaerts et al. and bibliographic records, not read.
 
 ## About
 
