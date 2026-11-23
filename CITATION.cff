@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Does Monthly Variance Targeting Improve on Fixed Equity Exposure? Evidence from Europe and Japan"
+type: software
+authors:
+  - family-names: "Shah"
+    given-names: "Mann"
+repository-code: "https://github.com/mann13072/monthly-variance-targeting"
+license: MIT
+date-released: "2026-11-23"
+abstract: "Paper, code, Lean proofs and results for a prespecified test of monthly variance targeting on Europe and Japan daily equity data, 1990-2026. The paper text is licensed CC BY 4.0 (see LICENSE-paper.md)."

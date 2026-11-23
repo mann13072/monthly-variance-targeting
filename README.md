@@ -101,4 +101,6 @@ Independent research by Mann Shah. The paper was written with substantial help f
 
 ## Licence and citation
 
-A licence and citation file have not been added yet.
+- **Code and everything except the paper:** MIT, see [LICENSE](LICENSE).
+- **The paper (PDF and figures):** CC BY 4.0, see [LICENSE-paper.md](LICENSE-paper.md).
+- **Citing:** see [CITATION.cff](CITATION.cff). A DOI will be added after the Zenodo release.
