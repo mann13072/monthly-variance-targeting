@@ -96,7 +96,7 @@ The test was frozen on 2026-11-22 at 16:22:24 UTC. The frozen script's SHA-256 i
 
 ## About
 
-Independent research by Mann Shah. The author directed the work and is responsible for its content. AI assistants (Claude from Anthropic, and a second agent) were used for coding, Lean proofs, analysis and drafting; see the note in the paper. Research, not investment advice.
+Independent research by Mann Shah. The author directed the work and is responsible for its content. Claude (Anthropic) wrote the code and Lean proofs, ran the analyses and drafted the text from the author's design and decisions; a second AI agent was used to discuss the hypothesis. See the note in the paper. Research, not investment advice.
 
 ## Licence and citation
 
